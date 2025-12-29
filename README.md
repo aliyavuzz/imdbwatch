@@ -1,4 +1,4 @@
-# IMDB Watch Now Button
+# IMDB Watch Now Button (vidsrc)
 
 A Chrome extension that adds a "Watch Now" button to IMDB movie and TV series pages, linking directly to vidsrc-embed.ru streaming service.
 
