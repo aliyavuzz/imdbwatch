@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "IMDB Şimdi İzle",
+  "version": "1.0",
+  "description": "IMDB sayfalarına 'Şimdi İzle' butonu ekler",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.imdb.com/title/tt*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  }
+}
